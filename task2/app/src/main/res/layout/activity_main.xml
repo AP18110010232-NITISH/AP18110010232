@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/Player1score"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:onClick="toast1"
+        android:text="Team 1"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        />
+    <TextView
+        android:id="@+id/Text1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="0"
+        android:textColor="#03A9F4"
+        android:textSize="30sp"
+        />
+
+    <Button
+        android:id="@+id/Add1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#03A9F4"
+        android:text="+1 point"
+        android:textSize="30sp"
+        />
+
+    <Button
+        android:id="@+id/sub1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#03A9F4"
+        android:text="+2 point"
+        android:textSize="30sp"
+        />
+
+    <Button
+
+        android:id="@+id/zero1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#03A9F4"
+        android:text="+3 point"
+        android:textSize="30dp"
+        />
+
+    <Button
+        android:layout_marginTop="50dp"
+        android:id="@+id/Player2Score"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:onClick="toast"
+        android:text="TEAM 2"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:id="@+id/Text2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="0"
+        android:gravity="center"
+        android:textColor="#122ECA"
+        android:textSize="40sp"
+        />
+
+    <Button
+        android:id="@+id/Add2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#03A9F4"
+        android:text="+1 point"
+        android:textSize="30sp"
+        />
+
+    <Button
+        android:id="@+id/sub2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#03A9F4"
+        android:text="+2 point"
+        android:textSize="30dp"
+        />
+
+    <Button
+
+        android:id="@+id/zero2"
+        android:layout_width="434dp"
+        android:layout_height="55dp"
+        android:background="#03A9F4"
+        android:text="+3 point"
+        android:textSize="30sp"
+        />
+
+
+
+    <Button
+        android:layout_marginTop="40dp"
+
+        android:id="@+id/button"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Reset"
+        />
+
+</LinearLayout>
